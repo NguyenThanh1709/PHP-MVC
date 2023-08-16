@@ -1,0 +1,17 @@
+:root {
+    --while-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+    --primary-color: #F5F5F5;
+    --primary-color--hover: #dcdcdc;
+    --boder-color: #dbdbdb;
+    --back-ground--trash: #fe3e3e;
+    --back-ground--hover: #f1f1f1;
+    --back-ground--base: #e5e9f0;
+    --back-ground--success: #28a745;
+    --star-gold-color:#ffce3d;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
+}

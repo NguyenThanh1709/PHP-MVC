@@ -1,0 +1,84 @@
+/*ADD CAT*/
+.add-cat-page #detail-page .section-detail label{ display: block; font-family: 'Roboto Medium'; font-weight: normal;}
+/* .add-cat-page #detail-page .section-detail input[type="text"]{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 70%;
+    margin-bottom: 15px;
+} */
+/* .add-cat-page #detail-page .section-detail textarea{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.add-cat-page #detail-page .section-detail select{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+} */
+
+.select_product_portfolio__group {
+    display: flex;
+}
+
+.btn__add__item {
+    font-style: italic;
+}
+
+.wp_select:nth-child(2) {
+    margin-left: 24px;
+}
+
+.wp__select__group {
+    display: flex;
+}
+.wp__select__item {
+    padding: 0 14px 0 0;
+}
+
+.select__group {
+    display: flex;
+    align-items: baseline;
+}
+
+.select__group a {
+    margin-left: 12px;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.add-cat-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: var(--back-ground--success);
+    color: var(--while-color);
+    border-radius: 3px;
+    padding: 8px 20px;
+    margin-bottom: 50px;
+}
+.add-cat-page #detail-page .section-detail button:hover{ opacity: 0.7; color: var(--while-color);}
+#btn-upload-thumb{ font-size: 13px; padding: 0px 10px; display: inline-block;}
+#uploadFile{ margin-bottom: 15px;}
+#uploadFile img{ margin-top: 15px; width: 150px; height: 150px; overflow: hidden; border: 1px solid #ddd;}
+
+#checkBoxPost{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5px 0 20px;
+}
+
+.add-cat-page #detail-page .section-detail #checkBoxPost label{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+#btn-submit {
+    margin-top: 35px;
+}

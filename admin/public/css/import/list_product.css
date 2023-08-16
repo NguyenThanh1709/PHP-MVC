@@ -1,0 +1,18 @@
+/*LIST PRODUCT*/
+.tbody-thumb{
+   max-width: 80px;
+   max-height: 80px;
+   overflow: hidden;
+}
+.tbody-thumb img{
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    border: 1px solid rgba(35, 82, 124, .4);
+}
+
+body .post-status .active {
+    border-bottom: 2px solid rgba(35, 82, 124, .4);
+    border-radius: 3px;
+}
+

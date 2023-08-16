@@ -1,0 +1,204 @@
+/*RESET BOOTSTRAP*/
+.table{ margin-bottom: 0!important;}
+.table thead{ border-top: 1px solid #ddd;}
+.table>tfoot>tr>td{ border-top: none!important;}
+.table tbody{ background: #fff;}
+
+/*CART*/
+.cart-page{ font-family: 'Roboto Regular';}
+.cart-page #main-content .section:nth-child(2){ padding-top: 0!important;}
+.cart-page #main-content{
+    width: 100%!important;
+    padding-right: 0!important;
+}
+#info-cart-wp table tr td{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#info-cart-wp table thead tr td{
+    font-size: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 18px 25px;
+    color: #333;
+    background: #f1f1f1;
+    border: 0;
+}
+#info-cart-wp table tbody tr td{
+    color: #222;
+    padding: 10px 0px;
+}
+#info-cart-wp table tbody tr td .num-order{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#info-cart-wp table tbody tr td .thumb{
+    display: inline-block;
+    width: 100px;
+    min-height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+#checkout-cart{
+    display: inline-block;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: 'Roboto Bold';
+    font-weight: normal;
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+}
+.delete-all-cart{
+    cursor: pointer;
+}
+#update-cart{
+    display: inline-block;
+    padding: 12px 25px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+    background: #ececec;
+    margin-right: 5px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Roboto Bold';
+    font-weight: normal;
+}
+#update-cart:hover{ background: #dadada;}
+#checkout-cart:hover{ background: #2b478c;}
+#cart-wp table tfoot tr td #action-cart a:nth-child(2){ margin-right: 0;}
+#total-price{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 25px 0px 20px 0px;
+}
+#total-price span{
+    color: #ad0000;
+    font-family: 'Roboto Medium';
+}
+#action-cart-wp{ margin-top: 30px;}
+#action-cart-wp .title{ margin-bottom: 10px; line-height: 24px;}
+#action-cart-wp .section-detail .title span{
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+#action-cart-wp a{
+    display: inline-block;
+    color: #006cbb;
+    line-height: 21px;
+    text-decoration: underline!important;
+}
+#action-cart-wp #buy-more{ margin-bottom: 5px;}
+#info-cart-wp table tfoot tr td{ padding: 0px;}
+.table>tbody>tr>th, .table>tbody>tr>td{ border-bottom: 1px solid #ddd;}
+/* Toast mg */
+#toast{
+    position: fixed;
+    top: 32px;
+    right: 10px;
+    z-index: 999999999;
+    /* background-color: #fff; */
+}
+
+.toast{
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 2px;
+    padding: 20px 0;
+    min-width: 400px;
+    max-width: 450px;
+    border-left: 5px solid #000;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    transition: all linear .3s;
+    /* background-color: #fff; */
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+}
+
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+}
+
+.toast + .toast{
+    margin-top: 24px;
+}
+
+.toast__icon{
+    font-size: 24px;
+}
+
+.toast__icon,
+.toast__close{
+    padding: 0 16px;
+}
+
+.toast__body{
+    flex-grow: 1;
+}
+
+.toast__title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.toast__msg{
+    font-size: 14px;
+    color: #888;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.toast__close{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.toast--success{
+    border-color: #47d864;
+}
+
+.toast--success .toast__icon{
+    color: #47d864;
+}
+
+.toast--info{
+    border-color: #2f86eb;
+}
+
+.toast--info .toast__icon{
+    color: #2f86eb;
+}
+
+.toast--warning{
+    border-color: #ffc021;
+}
+
+.toast--warning .toast__icon{
+    color: #ffc021;
+}
+
+.toast--error{
+    border-color: #ff632d ;
+}
+
+.toast--error .toast__icon{
+    color: #ff632d;
+}

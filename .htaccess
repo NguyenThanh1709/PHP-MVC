@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteRule ^trang-chu.html$ index.php?mod=home
+RewriteRule ^san-pham$ index.php?mod=products [QSA]
+RewriteRule ^bai-viet$ index.php?mod=blog [QSA]
+
+RewriteRule ^gioi-thieu.html$ index.php?mod=introduce
+RewriteRule ^lien-he.html$ index.php?mod=contact
+RewriteRule ^thanh-toan.html$ index.php?mod=checkout
+RewriteRule ^gio-hang.html$ index.php?mod=cart
+
+RewriteRule ^san-pham/chi-tiet-san-pham/([a-zA-Z0-9_\#/!@$%^&*(),.+-]+)-([0-9]+).html$ index.php?mod=products&action=detail&product_id=$2
+
+RewriteRule ^bai-viet/chi-tiet-bai-viet-([a-zA-Z0-9_\#/!@$%^&*(),.+-]+)-([0-9]+).html$ index.php?mod=blog&action=detail&blog_id=$2
+
+RewriteRule ^san-pham/([a-zA-Z0-9_\#/!@$%^&*(),.+-]+)-([0-9]+).html$ index.php?mod=products&action=find&name=$2
+# RewriteRule ^san-pham/(.*).html$ index.php?mod=products&action=find&name=$1
+RewriteRule ^san-pham/tim-kiem-san-pham.html$ index.php?mod=products&action=find
+# RewriteRule ^([a-zA-Z0-9_\#/!@$%^&*(),.+-]+)-([0-9]+).html$ index.php?mod=blog&page=$2
+
